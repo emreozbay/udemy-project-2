@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <h2>Go to /formpage to fill out the form</h2>
-            <h2>Go to /users to fill out the form</h2>
-        </div>
+        <h1>Please sign up here!</h1>
+        <form class="" method="POST">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="Submit" >
+        </form>
     </div>
 
 

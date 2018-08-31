@@ -1,5 +1,6 @@
 from django import forms
 from django.core import validators
+from basicapp.models import User
 
 #def check_for_z(value):
  #   if value[0].lower() != 'z':
@@ -20,3 +21,9 @@ class FormName(forms.Form):
         if email != vmail:
             raise forms.ValidationError("Make Sure Emails Match")
 
+
+
+class NewUserForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = "__all__"
