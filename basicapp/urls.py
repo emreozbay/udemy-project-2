@@ -5,8 +5,9 @@ app_name = 'basicapp'
 
 urlpatterns = [
 
-    url(r'^$', views.users, name='users'),
+    #url(r'^$', views.users, name='users'),
     url(r'^relative/$',views.relative,name= 'relative'),
-    url(r'^other/$',views.other,name='other')
+    url(r'^other/$',views.other,name='other'),
+    url(r'^register/$', views.register, name='register')
 
 ]
