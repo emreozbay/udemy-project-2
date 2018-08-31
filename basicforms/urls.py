@@ -20,6 +20,7 @@ urlpatterns = [
     url(r'^$',views.index,name='index'),
     url(r'formpage/',views.form_name_view,name='form_name'),
     url('admin/', admin.site.urls),
-    url(r'users/', include('basicapp.urls'))
+    url(r'users/', include('basicapp.urls')),
+    url(r'^basicapp/',include('basicapp.urls')),
 
 ]

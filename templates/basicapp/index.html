@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<!-- Opsiyonel tema -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-</head>
-<body>
+{% extends 'basicapp/base.html' %}
+
+    {% block body_block %}
+
     <div class="container">
         <div class="jumbotron">
             <h2>Go to /formpage to fill out the form</h2>
             <h2>Go to /users to fill out the form</h2>
+            <h1>{{ text|cut:'world' }}</h1>
+            <h1>{{ number|add:'99' }}</h1>
         </div>
     </div>
 
-
-</body>
-</html>
+    {% endblock %}

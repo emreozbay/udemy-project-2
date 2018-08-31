@@ -6,7 +6,22 @@ from basicapp.forms import NewUserForm
 # Create your views here.
 
 def index(request):
-    return render(request,'basicapp/index.html')
+    context_dict = {'text':'hello world','number':100}
+    return render(request,'basicapp/index.html',context_dict)
+
+def other(request):
+    return render(request,'basicapp/other.html')
+
+def relative(request):
+    return render(request,'basicapp/relative_url_templates.html')
+
+
+
+
+
+
+
+
 
 def form_name_view(request):
     form = forms.FormName()
@@ -34,3 +49,4 @@ def users(request):
             print('ERROR FORM INVALID')
 
     return render(request,'basicapp/users.html',{'form':form})
+
