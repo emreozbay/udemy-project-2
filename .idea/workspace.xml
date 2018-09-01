@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d694e39-f568-44fd-951e-418e8629d0f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/basicapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/basicapp/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basicapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basicapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basicforms/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicforms/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicforms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicforms/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/basicapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/basicapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/basicapp/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/basicapp/registration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,43 +25,43 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="11" />
-          <entry key="py" value="20" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1652" />
-          <entry key="py" value="3280" />
+          <entry key="html" value="1669" />
+          <entry key="py" value="3291" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1652" />
-          <entry key="Python" value="3280" />
+          <entry key="HTML" value="1669" />
+          <entry key="Python" value="3291" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basicapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+            <state relative-caret-position="590">
+              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1535755064202" expanded="true" signature="227:232" ph="..." />
-                <marker date="1535755064202" expanded="true" signature="475:1424" ph="..." />
-                <marker date="1535755064202" expanded="true" signature="1452:1457" ph="..." />
-                <marker date="1535755064202" expanded="true" signature="1880:1881" ph="..." />
-                <marker date="1535755064202" expanded="true" signature="1880:1885" ph="..." />
+                <marker date="1535808428429" expanded="true" signature="227:232" ph="..." />
+                <marker date="1535808428429" expanded="true" signature="475:1479" ph="..." />
+                <marker date="1535808428429" expanded="true" signature="1507:1512" ph="..." />
+                <marker date="1535808428429" expanded="true" signature="1935:1936" ph="..." />
+                <marker date="1535808428429" expanded="true" signature="1935:1940" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,12 +82,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basicapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1535754409203" expanded="true" signature="1187:1290" ph="..." />
+                <marker date="1535807224183" expanded="true" signature="1201:1304" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicforms/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
@@ -124,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/basicapp/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="204">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -141,24 +143,6 @@
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/basicapp/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/basicapp/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -196,22 +180,22 @@
         <option value="$PROJECT_DIR$/basicapp/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/basicapp/templatetags/my_extras.py" />
         <option value="$PROJECT_DIR$/templates/basicapp/index.html" />
-        <option value="$PROJECT_DIR$/basicforms/settings.py" />
         <option value="$PROJECT_DIR$/basicapp/admin.py" />
         <option value="$PROJECT_DIR$/basicapp/models.py" />
         <option value="$PROJECT_DIR$/templates/basicapp/login.html" />
         <option value="$PROJECT_DIR$/templates/basicapp/base.html" />
-        <option value="$PROJECT_DIR$/basicapp/forms.py" />
-        <option value="$PROJECT_DIR$/basicapp/views.py" />
         <option value="$PROJECT_DIR$/basicforms/urls.py" />
         <option value="$PROJECT_DIR$/basicapp/urls.py" />
         <option value="$PROJECT_DIR$/templates/basicapp/registration.html" />
+        <option value="$PROJECT_DIR$/basicapp/forms.py" />
+        <option value="$PROJECT_DIR$/basicforms/settings.py" />
+        <option value="$PROJECT_DIR$/basicapp/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="970" />
+    <option name="width" value="958" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -286,10 +270,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="776" y="0" width="766" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25514403" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -343,23 +327,6 @@
     <entry file="file://$PROJECT_DIR$/basicapp/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicforms/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="135" column="21" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basicapp/templatetags/my_extras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <marker date="1535748121893" expanded="true" signature="108:113" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basicapp/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -394,17 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1535752217626" expanded="true" signature="323:388" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basicforms/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -415,14 +371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicapp/forms.py">
+    <entry file="file://$PROJECT_DIR$/templates/basicapp/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1535754409203" expanded="true" signature="1187:1290" ph="..." />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -436,25 +388,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicapp/views.py">
+    <entry file="file://$PROJECT_DIR$/basicapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state relative-caret-position="187">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1535755064202" expanded="true" signature="227:232" ph="..." />
-            <marker date="1535755064202" expanded="true" signature="475:1424" ph="..." />
-            <marker date="1535755064202" expanded="true" signature="1452:1457" ph="..." />
-            <marker date="1535755064202" expanded="true" signature="1880:1881" ph="..." />
-            <marker date="1535755064202" expanded="true" signature="1880:1885" ph="..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1535752217626" expanded="true" signature="323:388" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/basicapp/registration.html">
+    <entry file="file://$PROJECT_DIR$/basicapp/templatetags/my_extras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <marker date="1535748121893" expanded="true" signature="108:113" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicforms/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1535807224183" expanded="true" signature="1201:1304" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1535808428429" expanded="true" signature="227:232" ph="..." />
+            <marker date="1535808428429" expanded="true" signature="475:1479" ph="..." />
+            <marker date="1535808428429" expanded="true" signature="1507:1512" ph="..." />
+            <marker date="1535808428429" expanded="true" signature="1935:1936" ph="..." />
+            <marker date="1535808428429" expanded="true" signature="1935:1940" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

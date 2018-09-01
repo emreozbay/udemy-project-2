@@ -21,7 +21,7 @@ def register(request):
     registered = False
 
     if request.method == 'POST':
-        user_form =UserForm(data =request.POST)
+        user_form = UserForm(data =request.POST)
         profile_form = UserProfileInfoForm(data=request.POST)
 
         if user_form.is_valid() and profile_form.is_valid():
@@ -49,7 +49,8 @@ def register(request):
     return render(request,'basicapp/registration.html',
                   {'user_form':user_form,
                    'profile_form':profile_form,
-                   'registered':registered})
+                   'registered':registered,
+                   'error': user_form.errors.as_ul()})
 
 
 

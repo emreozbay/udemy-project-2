@@ -9,7 +9,7 @@ from  django.contrib.auth.models import User
   #      raise forms.ValidationError("Name Needs To Start With Z")
 
 class FormName(forms.Form):
-    name =forms.CharField()
+    name =forms.CharField(max_length=264)
     email = forms.EmailField()
     verify_email = forms.EmailField(label='Enter Your email again')
     text =forms.CharField(widget=forms.Textarea)
