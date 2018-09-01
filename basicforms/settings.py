@@ -134,3 +134,4 @@ STATIC_URL = '/static/'
 STATICFILES = [STATIC_DIR,]
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+LOGIN_URL = 'basicapp/user_login'

@@ -1,2 +1,19 @@
-<!DOCTYPE html>
 {% extends 'basicapp/base.html' %}
+
+{% block body_block %}
+
+<div class="jumbotron">
+    <h1>please Login</h1>
+    <form action="{% url 'basicapp:user_login' %}" method="post">
+        {% csrf_token %}
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter Username">
+
+        <label for="passworld">Password</label>
+        <input type="password" name="passeorld">
+
+        <input type="submit" name="" value="Login">
+    </form>
+</div>
+
+{% endblock %}
